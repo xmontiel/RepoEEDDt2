@@ -1,14 +1,30 @@
+/**
+ * Clase Libro.
+ * @author Juan Montiel
+ * @version 1.0
+ * @see Biblioteca
+ */
+
 package biblioteca;
 
 public class Libro {
 
-    // TODO: Documentar estos atributos
+    /**
+     * Estas varibles contienen el titulo, autor y anio de publicacion
+     * @param titulo
+     * @param autor
+     * @param anioPublicacion
+     */
     private String titulo;
     private String autor;
     private int anioPublicacion;
 
-
-    // TODO: Documentar este método
+    /**
+     *  Constructor con titulo, autor y anio de publicacion de Libro
+     * @param titulo
+     * @param autor
+     * @param anioPublicacion
+     */
     // TODO: Testear este método
     public Libro(String titulo, String autor, int anioPublicacion) {
         this.titulo = titulo;
@@ -24,7 +40,9 @@ public class Libro {
         this.titulo = titulo;
     }
 
-    // TODO: Documentar este método
+    /**
+     *  Busca el autor de un libro
+     */
     public String getAutor() {
         return autor;
     }
@@ -33,7 +51,9 @@ public class Libro {
         this.autor = autor;
     }
 
-    // TODO: Documentar este método
+    /**
+     *  Busca anio de publicacion de un libro
+     */
     public int getAnioPublicacion() {
         return anioPublicacion;
     }
